@@ -13,6 +13,7 @@
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "survey-react-ui": "^1.9.123",
+    "vercel": "^33.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

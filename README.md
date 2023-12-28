@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Read.me :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce formulaire a été créé avec ReactJs. J’ai repris la maquette du site en modifiant quelques éléments. 
 
-## Available Scripts
+J’ai pu le réaliser en reprenant des bouts de codes de mes anciens projets solo, de la documentation, ChatGpt et Youtube.
 
-In the project directory, you can run:
+Afin d’avoir un code propre et lisible, j’utilise Tailwind CSS me permettant ainsi d'éviter d’écrire de grosses lignes de codes dans mes pages css. 
 
-### `npm start`
+Ma page App.js est un recueil me permettant d’ajouter tous mes composants issus du dossier src/components.
+Pour ce qui est des images et svg, les éléments sont rangés dans le dossier assets.
+Ainsi que mes fichiers css dans mon dossier src/styles/. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tout d’abord, j’ai commencé par créer mon composant Navbar.js. Sa fonction permet d’afficher le menu. Étant donné le temps limité, cette fonction n’est qu’une maquette et n’a pas de redirection pour chaque liens pour le moment. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+J’ai ensuite créé une fonction Form avec l’aide d’une extension Survey.js j’ai pu créer un formulaire que je récupère les informations grâce à la base de données créée en fichier json (json.js). Une fois le formulaire complété les données sont transmises dans le console log, En temps normal, ces données devraient être redirigées dans une base de données.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+J’ai un composant Button.js avec des props me permettant d’afficher tous types de boutons par défaut de la maquette en évitant les répétitions. J’appelle cette fonction on y ajoutant un theme prédéfini tel que: <Button theme= "primary"> </Button>.
 
-### `npm run build`
+Dans le composant Footer, est constitué un formulaire de contact où un mail peut directement être envoyé l’adresse commemyhome@gmail.com. Vous pouvez essayer  !
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+J’ai ensuite écrit une phrase d’accroche en parallèle avec le formulaire de contact, celle ci est animée mais faudrait dans un premier lieu descendre en bas de la page pour voir l’animation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Et pour finir le copyright écrit en variable, qui permet notamment pour la date de « 2023 » d’éviter de réécrire chaque année.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Note: Sur l’onglet de la page à côté de « Comme My Home - ROBERT Fabrice » j’ai mis en favicon l’image de l’entreprise, contrerairement à l'original qui est très difficile à voir.Read.me :
 
-### `npm run eject`
+Ce formulaire a été créé avec ReactJs. J’ai repris la maquette du site en modifiant quelques éléments. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+J’ai pu le réaliser en reprenant des bouts de codes de mes anciens projets solo, de la documentation, ChatGpt et Youtube.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Afin d’avoir un code propre et lisible, j’utilise Tailwind CSS me permettant ainsi d'éviter d’écrire de grosses lignes de codes dans mes pages css. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Ma page App.js est un recueil me permettant d’ajouter tous mes composants issus du dossier src/components.
+Pour ce qui est des images et svg, les éléments sont rangés dans le dossier assets.
+Ainsi que mes fichiers css dans mon dossier src/styles/. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Tout d’abord, j’ai commencé par créer mon composant Navbar.js. Sa fonction permet d’afficher le menu. Étant donné le temps limité, cette fonction n’est qu’une maquette et n’a pas de redirection pour chaque liens pour le moment. 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+J’ai ensuite créé une fonction Form avec l’aide d’une extension Survey.js j’ai pu créer un formulaire que je récupère les informations grâce à la base de données créée en fichier json (json.js). Une fois le formulaire complété les données sont transmises dans le console log, En temps normal, ces données devraient être redirigées dans une base de données.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+J’ai un composant Button.js avec des props me permettant d’afficher tous types de boutons par défaut de la maquette en évitant les répétitions. J’appelle cette fonction on y ajoutant un theme prédéfini tel que: <Button theme= "primary"> </Button>.
 
-### Code Splitting
+Dans le composant Footer, est constitué un formulaire de contact où un mail peut directement être envoyé l’adresse commemyhome@gmail.com. Vous pouvez essayer  !
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+J’ai ensuite écrit une phrase d’accroche en parallèle avec le formulaire de contact, celle ci est animée mais faudrait dans un premier lieu descendre en bas de la page pour voir l’animation
 
-### Analyzing the Bundle Size
+Et pour finir le copyright écrit en variable, qui permet notamment pour la date de « 2023 » d’éviter de réécrire chaque année.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Note: Sur l’onglet de la page à côté de « Comme My Home - ROBERT Fabrice » j’ai mis en favicon l’image de l’entreprise, contrerairement à l'original qui est très difficile à voir.

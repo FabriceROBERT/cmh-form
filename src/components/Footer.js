@@ -19,7 +19,7 @@ const Footer = () => {
     })
 
   const onSubmit = (formData) => {
-    window.location.href = `mailto:fabricerob@yahoo.fr?subject=${formData.objet}&body=${formData.commentaire}`;
+    window.location.href = `mailto:commemyhome@gmail.com?subject=${formData.objet}&body=${formData.commentaire}`;
   };
 
   return (
