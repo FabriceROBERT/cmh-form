@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    @apply bg-[#e9e8e6];
+    min-height: 100vh;
+    
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.contactInput {
+    @apply outline-none bg-[#e9e8e6] rounded-sm border-b px-6 py-6 border-[#242424] text-gray-500 placeholder-gray-500 transition-all
+    focus:border-[#F7AB0A]/40 focus:text-[#a04794];
+  }
+  
+
+  li {
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
